@@ -33,6 +33,6 @@ $(".textInput").each(function(){
         $("#" + i).val(localStorage.getItem(i));
     }
 
-// display curent day on page (usae moment)
-
+// display curent day on page 
+var day = moment()
 })
